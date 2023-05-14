@@ -1,32 +1,51 @@
+using Microsoft.EntityFrameworkCore;
 using PlatformService.Models;
 using PlatformServices.Data;
+
 
 namespace PlatformService.Data
 {
     public static class PrepDb
     {
-        public static void PrepPopultion(WebApplication app)
+        public static void PrepPopulation(IApplicationBuilder app, bool isProd)
         {
-            using (var serviceScope = app.Services.CreateScope())
-            SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>());
+            using( var serviceScope = app.ApplicationServices.CreateScope())
+            {
+                SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>(), isProd);
+            }
         }
 
-        private static void SeedData(AppDbContext context)
+        private static void SeedData(AppDbContext context, bool isProd)
         {
-           if(!context.Platforms.Any())
-           {
-                Console.WriteLine("-->Seeding Data");
-                context.Platforms.AddRange(
-                    new Platform(){Name = "Dot Net",Publisher ="Microsoft",Cost = "free"},
-                    new Platform(){Name = "SQL Server Express",Publisher ="Microsoft",Cost = "free"},
-                    new Platform(){Name = "Kubernetes",Publisher ="Cloud Native Computing Foundation",Cost = "free"}
-                );
-                context.SaveChanges();
+            if(isProd)
+            {
+                Console.WriteLine("--> Attempting to apply migrations...");
+                try
+                {
+                    context.Database.Migrate();
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine($"--> Could not run migrations: {ex.Message}");
+                }
+            }
+            
+            if(!context.Platforms.Any())
+            {
+                Console.WriteLine("--> Seeding Data...");
 
-           }else
-           {
-                Console.WriteLine("-->We already have data");
-           }
+                context.Platforms.AddRange(
+                    new Platform() {Name="Dot Net", Publisher="Microsoft", Cost="Free"},
+                    new Platform() {Name="SQL Server Express", Publisher="Microsoft",  Cost="Free"},
+                    new Platform() {Name="Kubernetes", Publisher="Cloud Native Computing Foundation",  Cost="Free"}
+                );
+
+                context.SaveChanges();
+            }
+            else
+            {
+                Console.WriteLine("--> We already have data");
+            }
         }
     }
 }
