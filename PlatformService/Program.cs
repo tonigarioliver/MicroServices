@@ -26,8 +26,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PlatformService v1"));
 }
 
-app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 app.MapControllers();
