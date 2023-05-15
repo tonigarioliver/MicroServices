@@ -1529,19 +1529,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tonie\\.nuget\\packages\\": {}
+    "C:\\Users\\anton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\Microservices\\CommandsService\\CommandsService.csproj",
+      "projectUniqueName": "C:\\SW\\MicroServices\\CommandsService\\CommandsService.csproj",
       "projectName": "CommandsService",
-      "projectPath": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\Microservices\\CommandsService\\CommandsService.csproj",
-      "packagesPath": "C:\\Users\\tonie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\Microservices\\CommandsService\\obj\\",
+      "projectPath": "C:\\SW\\MicroServices\\CommandsService\\CommandsService.csproj",
+      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+      "outputPath": "C:\\SW\\MicroServices\\CommandsService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tonie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1613,7 +1613,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
