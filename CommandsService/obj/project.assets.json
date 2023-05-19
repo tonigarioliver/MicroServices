@@ -1529,19 +1529,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anton\\.nuget\\packages\\": {}
+    "C:\\Users\\tonie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SW\\MicroServices\\CommandsService\\CommandsService.csproj",
+      "projectUniqueName": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\MicroServices\\CommandsService\\CommandsService.csproj",
       "projectName": "CommandsService",
-      "projectPath": "C:\\SW\\MicroServices\\CommandsService\\CommandsService.csproj",
-      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-      "outputPath": "C:\\SW\\MicroServices\\CommandsService\\obj\\",
+      "projectPath": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\MicroServices\\CommandsService\\CommandsService.csproj",
+      "packagesPath": "C:\\Users\\tonie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\MicroServices\\CommandsService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tonie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1549,7 +1549,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1614,7 +1613,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
