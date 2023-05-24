@@ -86,3 +86,5 @@ C:\SW\MicroServices\CommandsService\obj\Debug\net7.0\refint\CommandsService.dll
 C:\SW\MicroServices\CommandsService\obj\Debug\net7.0\CommandsService.pdb
 C:\SW\MicroServices\CommandsService\obj\Debug\net7.0\CommandsService.genruntimeconfig.cache
 C:\SW\MicroServices\CommandsService\obj\Debug\net7.0\ref\CommandsService.dll
+C:\SW\MicroServices\CommandsService\bin\Debug\net7.0\appsettings.Production.json
+C:\SW\MicroServices\CommandsService\bin\Debug\net7.0\RabbitMQ.Client.dll
