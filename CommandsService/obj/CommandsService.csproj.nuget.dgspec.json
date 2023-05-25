@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SW\\MicroServices\\CommandsService\\CommandsService.csproj": {}
+    "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "C:\\SW\\MicroServices\\CommandsService\\CommandsService.csproj": {
+    "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SW\\MicroServices\\CommandsService\\CommandsService.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "C:\\SW\\MicroServices\\CommandsService\\CommandsService.csproj",
+        "projectPath": "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\CommandsService\\CommandsService.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "C:\\SW\\MicroServices\\CommandsService\\obj\\",
+        "outputPath": "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,20 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.23.1, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.53.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.54.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tonie\\Desktop\\Programming\\C#\\MicroServices\\PlatformService\\PlatformService.csproj": {}
+    "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tonie\\Desktop\\Programming\\C#\\MicroServices\\PlatformService\\PlatformService.csproj": {
+    "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\MicroServices\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\MicroServices\\PlatformService\\PlatformService.csproj",
-        "packagesPath": "C:\\Users\\tonie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tonie\\Desktop\\Programming\\C#\\MicroServices\\PlatformService\\obj\\",
+        "projectPath": "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\PlatformService\\PlatformService.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\OneDrive\\Desktop\\MicroServices\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tonie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +44,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.53.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -94,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
