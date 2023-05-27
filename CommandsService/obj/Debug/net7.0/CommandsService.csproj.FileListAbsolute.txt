@@ -88,3 +88,9 @@ C:\SW\MicroServices\CommandsService\obj\Debug\net7.0\CommandsService.genruntimec
 C:\SW\MicroServices\CommandsService\obj\Debug\net7.0\ref\CommandsService.dll
 C:\SW\MicroServices\CommandsService\bin\Debug\net7.0\appsettings.Production.json
 C:\SW\MicroServices\CommandsService\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\tonie\Desktop\Programming\C#\MicroServices\CommandsService\bin\Debug\net7.0\appsettings.Production.json
+C:\Users\tonie\Desktop\Programming\C#\MicroServices\CommandsService\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\tonie\Desktop\Programming\C#\MicroServices\CommandsService\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\tonie\Desktop\Programming\C#\MicroServices\CommandsService\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\tonie\Desktop\Programming\C#\MicroServices\CommandsService\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\tonie\Desktop\Programming\C#\MicroServices\CommandsService\bin\Debug\net7.0\RabbitMQ.Client.dll
