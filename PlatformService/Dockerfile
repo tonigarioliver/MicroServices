@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0 as build-env
 WORKDIR /app
 COPY *.csproj ./
-RUN dotnet dev-certs https -ep /app/Certificates/certificate.pfx -p toni0215 --trust
+RUN dotnet dev-certs https -ep /app/Certificates/certificate.pfx -p test --trust
 RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o out
